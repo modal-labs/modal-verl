@@ -5,7 +5,7 @@
 
 # Instructions
 
-To run the local entrypoint: `modal run grpo.py` (currently set to invoke `train`)
-To run the data processing function: `modal run grpo.py::prep_dataset`
-To run the train function: `modal run grpo.py::train`
+- To run the local entrypoint: `modal run --detach grpo.py` (currently set to invoke `train`)
+- To run the data processing function: `modal run --detach grpo.py::prep_dataset`
+- To run the train function: `modal run --detach grpo.py::train`
 
