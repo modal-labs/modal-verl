@@ -9,3 +9,5 @@
 - To run the data processing function: `modal run --detach grpo.py::prep_dataset`
 - To run the train function: `modal run --detach grpo.py::train`
 
+If you want to use WANDB, also set `export ALLOW_WANDB=true`
+
