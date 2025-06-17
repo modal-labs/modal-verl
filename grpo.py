@@ -89,6 +89,9 @@ def train():
         "trainer.total_epochs=15",
         f"trainer.default_local_dir={CHECKPOINTS_PATH}",
         "trainer.resume_mode=auto",
+        # if you want a custom reward function
+        f"custom_reward_function.path={PATH_TO_REWARD_FUNCTION}",
+        f"custom_reward_function.name={REWARD_FUNCTION_NAME}"        
 
     ]
     subprocess.run(cmd, check=True)
